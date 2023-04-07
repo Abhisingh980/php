@@ -7,8 +7,12 @@ if($link===false)
 {
 die("ERROR: Could not connect. " . mysqli_connect_error());
 }
-$name=$_POST["name"];
-$pass=$_POST["password"];
+session_start(){
+//$name=$_POST["name"];
+//$pass=$_POST["password"];
+$name=$_SESSION["name"];
+$pass=$_SESSION["password"];
+}
 $sql="SELECT * FROM Login_detail WHERE login_name='$name' AND Pass='$pass'";
 $result=mysqli_query($link,$sql);
 if(mysqli_num_rows($result)>0)
@@ -20,6 +24,7 @@ else
 echo "<h1>Invalid username or password</h1><br><br>";
 //link to login page
 echo "<a href='Q7.html'>Login Page</a>";
+session_abort();
 }
 mysqli_close($link);
 ?>

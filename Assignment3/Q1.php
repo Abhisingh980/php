@@ -1,7 +1,4 @@
-<!--PHP script
-should check that all fields are filled in. If not, the script should print an error
-message. Otherwise, the script should insert the data into a new entry within
-the faculty table.-->
+
 <?php
 //connect to the database
 $link=mysqli_connect("localhost","root","","demo");
