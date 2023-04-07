@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>validation</title>
+    <style>
+        body{
+            background-color: rgb(230, 230, 230);
+        }
+        label{
+            display: inline-block;
+            width: 100px;
+            font-size: xx-large;
+            color: rgb(245, 83, 83);
+        }
+        h1{
+            text-align: center;
+            font-size: xx-large;
+            color: rgb(249, 249, 249);
+        }
+        input[type="text"]{
+            background-color: rgb(123, 231, 224);
+            margin-left: 10px;
+            color: aqua;
+            padding: 10px;
+            font-size: x-large;
+
+        }
+        input[type="password"]{
+            background-color: rgb(89, 235, 235);
+            margin-left: 10px;
+            color: aqua;
+            padding: 10px;
+            font-size: x-large;
+        }
+        input[type="text"]:focus{
+            background-color: rgb(31, 181, 73);
+            color: aqua;
+            padding: 10px;
+            font-size: x-large;
+        }
+        input:hover{
+            background-color: rgb(227, 63, 34);
+            color: aqua;
+            padding: 10px;
+            font-size: x-large;
+        }
+        form{
+            margin-left: 200px;
+            margin-top: 100px;
+            background-color: rgb(221, 233, 98);
+            padding: 20px;
+            border-radius: 10px;
+            margin-right: 190px;
+            border: 2px;
+            border-style: solid;
+            border-color: rgb(0, 0, 0);
+        }
+        input[type="submit"]{
+            background-color: black;
+            color: aqua;
+            padding: 10px;
+            font-size: x-large;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validation</h1>
+    <form method="post" action="Q_21.php">
+        <label for="uname" >Username</label>
+       &emsp; &emsp;<input type="text" id="uname" name="uname" required>
+        <br><br><br><br>
+        <label for="pass" >Password</label>
+        &emsp; &emsp;<input type="password" id="pass" name="pass" required>
+        <br><br><br>
+        &emsp; &emsp;<input type="submit" value="GO--">
+    </form>
+</body>
+</html>

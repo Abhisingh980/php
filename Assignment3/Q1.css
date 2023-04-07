@@ -1,0 +1,55 @@
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: #4CAF50 0px 0px 5px;
+    background-color: beige;
+}
+label{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input{
+    font-size: 30px ;
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: inherit;
+    box-shadow: #4CAF50 0px 0px 5px;
+    background-color: aquamarine;
+    text-size-adjust: 100%;
+     color: rgb(114, 51, 6);
+    align-items: center;
+}
+input[type="submit"]{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+body{
+    background-color: #4a744c;
+}

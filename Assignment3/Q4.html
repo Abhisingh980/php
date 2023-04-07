@@ -1,0 +1,31 @@
+<!---A simple calculator web application that takes two numbers and an operator (+, -, /,
+* and %) from an HTML page and returns the result page with the operation
+performed on the operands.-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="Q4.css">
+</head>
+<body>
+<h1>Calculator</h1>
+<form action="Q4.php" method="post">
+    <label for="fnumber">First Number</label>
+    <input type="text" name="fnumber" id="fnumber" required>
+    <br>
+    <label for="operator">Operator</label>
+    <select name="operator" id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+        <option value="%">%</option>
+    </select>
+    <br>
+    <label for="snumber">Second Number</label>
+    <input type="text" name="snumber" id="snumber" required>
+    <br>
+    <input type="submit" value="Calculate">
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!--A web application that takes name and age from an HTML page. If the age is less
+than 18, it should send a page with “Hello <name>, you are not authorized to visit
+this site” message, where <name> should be replaced with the entered name.
+Otherwise it should send “Welcome <name> to this site” message.-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Name</title>
+<link rel="stylesheet" href="Q3.css">
+</head>
+<body>
+<form action="Q3.php" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age">
+    <br>
+    <input type="submit" value="Submit">
+</body>
+</html>

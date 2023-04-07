@@ -1,0 +1,75 @@
+h1{
+    color: #1509fc;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-transform: uppercase;
+}
+fieldset{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+}
+legend{
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+label{
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(89, 237, 52);
+    text-transform: uppercase;
+}
+input{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+}
+input[type="submit"]:hover{
+    background-color: #e57c7c;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+body{
+    background-color: #f57878;
+}
+span{
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(89, 237, 52);
+}

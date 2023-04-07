@@ -1,0 +1,52 @@
+body{
+    background-color: #7c7979;
+}
+input[type="mail"]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ec9e9e;
+    border-radius: 5px;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+input:hover{
+    background-color: #1a1919;
+    outline: none;
+}
+input[type="submit"]{
+    background-color: #ea3636;
+    color: #fff;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 5px;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+label{
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
+form{
+    width: 400px;
+    margin: 150px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
